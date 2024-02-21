@@ -35,9 +35,13 @@
   <ItemGroup>
     <ClCompile Include="Cat.cpp" />
     <ClCompile Include="CatGame.cpp" />
+    <ClCompile Include="DateSaverApp.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="ITimeKeeper.cpp" />
+    <ClCompile Include="MockTimeKeeper.cpp" />
     <ClCompile Include="RealObject.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="TimeKeeper.cpp" />
     <ClCompile Include="Turtle.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -46,12 +50,16 @@
   <ItemGroup>
     <ClInclude Include="Cat.h" />
     <ClInclude Include="CatGame.h" />
+    <ClInclude Include="DateSaverApp.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="ITimeKeeper.h" />
     <ClInclude Include="MockCat.h" />
     <ClInclude Include="MockRealObject.h" />
+    <ClInclude Include="MockTimeKeeper.h" />
     <ClInclude Include="MockTurtle.h" />
     <ClInclude Include="painter.h" />
     <ClInclude Include="RealObject.h" />
+    <ClInclude Include="TimeKeeper.h" />
     <ClInclude Include="Turtle.h" />
   </ItemGroup>
   <ItemDefinitionGroup />

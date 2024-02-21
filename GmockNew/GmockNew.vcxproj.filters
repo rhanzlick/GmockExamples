@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Cat.cpp" />
+    <ClCompile Include="CatGame.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="RealObject.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="Turtle.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gtest\gtest-all.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gmock\gmock-all.cc" />
+    <ClCompile Include="ITimeKeeper.cpp" />
+    <ClCompile Include="TimeKeeper.cpp" />
+    <ClCompile Include="DateSaverApp.cpp" />
+    <ClCompile Include="MockTimeKeeper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cat.h" />
+    <ClInclude Include="CatGame.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="MockCat.h" />
+    <ClInclude Include="MockRealObject.h" />
+    <ClInclude Include="MockTurtle.h" />
+    <ClInclude Include="painter.h" />
+    <ClInclude Include="RealObject.h" />
+    <ClInclude Include="Turtle.h" />
+    <ClInclude Include="ITimeKeeper.h" />
+    <ClInclude Include="TimeKeeper.h" />
+    <ClInclude Include="DateSaverApp.h" />
+    <ClInclude Include="MockTimeKeeper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
