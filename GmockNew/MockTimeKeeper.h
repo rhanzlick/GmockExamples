@@ -1,15 +1,13 @@
 #pragma once
 
-
-#include <string>
 #include "ITimeKeeper.h"
 #include "gmock/gmock.h"
 
 using namespace std;
 
-class MockTimeKeeper : ITimeKeeper
+class MockTimeKeeper : public ITimeKeeper
 {
 public:
-	MOCK_METHOD(string, GetCurrentDate, ());
+	MOCK_METHOD(string, GetCurrentDate, (), (override));
 };
 

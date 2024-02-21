@@ -1,10 +1,6 @@
 #include "TimeKeeper.h"
 
-#include <iostream>
-#include <string>
 #include <ctime>
-#include <stdio.h>
-
 
 using namespace std;
 

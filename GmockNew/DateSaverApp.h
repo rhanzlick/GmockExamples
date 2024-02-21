@@ -1,23 +1,28 @@
 #pragma once
 
+#include "ITimeKeeper.h"
+
 #include <map>
-#include <iostream>
-#include <string>
 #include <ctime>
-#include <stdio.h>
-#include "TimeKeeper.h"
+
 
 using namespace std;
 
 class DateSaverApp
 {
-	TimeKeeper* timeKeeper;
+	
 private:
+	//Mock Interface property
+	ITimeKeeper* timeKeeper;
+
+	//fake database repo of saved dates
 	map<string, string> InternalDateMap;
+
+	void ValidateDateFormat(string date);
 
 public:
 	
-	DateSaverApp(TimeKeeper* timeKeeper);
+	DateSaverApp(ITimeKeeper* timeKeeper);
 
 	//date in mm-dd format
 	string VerifyDate();
